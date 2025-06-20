@@ -6,7 +6,7 @@
   base = "nuxt-app"
 
   # The command to build your Nuxt site.
-  command = "yarn build"
+  command = "yarn install && yarn build"
 
   # The directory where the built site is located, relative to the `base` directory.
   # For Nuxt 3, this is typically ".output/public".

@@ -1,6 +1,8 @@
 [build]
-  command = "(cd express-app && npm install) && (cd nuxt-app && npm install && npm run build)"
-  publish = "nuxt-app/.output/public"
-  base = ""
+  command = "yarn build:functions && yarn build"
+  publish = ".output/public"
+
+[functions]
+  directory = "netlify/functions"
 
 # Optionally, you can add [functions] if you use Netlify Functions

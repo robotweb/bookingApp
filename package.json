@@ -3,5 +3,9 @@
     "workspaces": [
       "nuxt-app",
       "express-app"
-    ]
+    ],
+    "scripts": {
+      "build:functions": "cpx '../express-app/src/**/*' 'netlify/functions/express-app/'",
+      "build": "nuxt build"
+    }
   }

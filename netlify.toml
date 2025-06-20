@@ -1,0 +1,8 @@
+[build]
+  # This command tells Netlify to change into your nuxt-app directory,
+  # install dependencies, and then build your application.
+  command = "cd nuxt-app && yarn install && yarn build"
+
+  # This tells Netlify that the finished, deployable site
+  # is located in the "nuxt-app/.output" directory.
+  publish = "nuxt-app/.output" 

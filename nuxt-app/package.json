@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build:functions": "cpx '../express-app/src/**/*' 'netlify/functions/express-app/'"
+    "build:functions": "cpx '../express-app/**/*' 'netlify/functions/express-app/'"
   },
   "dependencies": {
     "@internationalized/date": "^3.8.1",

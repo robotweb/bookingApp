@@ -1,8 +1,0 @@
-[build]
-  command = "yarn build:functions && yarn build"
-  publish = ".output/public"
-
-[functions]
-  directory = "netlify/functions"
-
-# Optionally, you can add [functions] if you use Netlify Functions

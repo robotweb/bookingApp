@@ -7,8 +7,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "build:functions": "cpx '../express-app/**/*' 'netlify/functions/express-app/'"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@internationalized/date": "^3.8.1",
@@ -19,12 +18,7 @@
     "@vueuse/core": "^13.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "knex": "^3.1.0",
     "lucide-vue-next": "^0.511.0",
-    "mysql2": "^3.14.1",
     "nuxt": "^3.17.4",
     "pinia": "^3.0.3",
     "reka-ui": "^2.2.1",
@@ -37,7 +31,6 @@
     "vue-sonner": "^2.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "cpx": "^1.5.0"
+    "typescript": "^5.8.3"
   }
 }

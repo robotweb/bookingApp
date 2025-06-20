@@ -1,13 +1,9 @@
 # This file configures Netlify's build and deployment settings.
 
 [build]
-  # Set the base directory to your Nuxt app's folder.
-  # Netlify will run the build command from this directory.
-  base = "nuxt-app"
+  # The command to build your Nuxt site. We change into the nuxt-app directory
+  # before running the installation and build.
+  command = "cd nuxt-app && yarn install && yarn build"
 
-  # The command to build your Nuxt site.
-  command = "yarn install && yarn build"
-
-  # The directory where the built site is located, relative to the `base` directory.
-  # For Nuxt 3, this is typically ".output/public".
-  publish = ".output" 
+  # The directory where the built site is located, relative to the repository root.
+  publish = "nuxt-app/.output" 

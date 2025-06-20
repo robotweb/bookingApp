@@ -10,4 +10,4 @@
 
   # The directory where the built site is located, relative to the `base` directory.
   # For Nuxt 3, this is typically ".output/public".
-  publish = ".output/public" 
+  publish = ".output" 
